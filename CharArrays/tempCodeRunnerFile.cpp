@@ -1,0 +1,1 @@
+cout <<"Finds where the string is present :: " << str1.find("good") << endl;
