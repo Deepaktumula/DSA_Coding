@@ -12,7 +12,8 @@ void printSolution(vector<vector<char>> &board, int n)
         }
         cout << endl;
     }
-    cout << endl << endl;
+    cout << endl
+         << endl;
 }
 
 bool isSafe(int row, int col, vector<vector<char>> &board, int n)
@@ -85,7 +86,7 @@ void solve(vector<vector<char>> &board, int col, int n)
 
 int main()
 {
-    int n = 4;
+    int n = 9;
     vector<vector<char>> board(n, vector<char>(n, '-'));
     int col = 0;
     solve(board, col, n);
