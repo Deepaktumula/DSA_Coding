@@ -23,6 +23,12 @@ public:
 
 void insertAtHead(Node *&head, int data)
 {
+    if(head == NULL)
+    {
+        Node* newnode = new Node(data);
+        head = newnode;
+        return ;
+    }
     // Step 1: Create A NewNode
     Node *newNode = new Node(data);
 
