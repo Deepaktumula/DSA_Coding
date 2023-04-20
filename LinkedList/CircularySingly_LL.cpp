@@ -326,5 +326,7 @@ int main()
 
     deleteAtPosition(head,tail,1);
     display(head);
+    // cout << endl;
+    // cout << "Last Node next data :: "<< tail->next->data ;
     return 0;
 }
